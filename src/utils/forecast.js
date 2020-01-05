@@ -13,7 +13,7 @@ const forecast = (latitude, longitude, callback) => {
             +body.currently.precipProbability+"% chance of rain."
             + " Maximum temparate of " + body.daily.data[0].temperatureHigh 
             + " degrees and Minimum of "+body.daily.data[0].temperatureMin + " degrees.");
-        }
+        } 
     })    
 }
 
